@@ -1,0 +1,13 @@
+CREATE TABLE students{
+    roll_no INTEGER PRIMARY KEY,
+    name TEXT,
+    student_class INTEGER
+};
+
+CREATE TABLE marks{
+    roll_no INTEGER PRIMARY KEY,
+    student_class INTEGER
+    math INTEGER,
+    science INTEGER,
+    english INTEGER
+};

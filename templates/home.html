@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result System</title>
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Smart Student Result Management System</h1>
+
+    <div class="button-container">
+    <a href="{{ url_for('add_student') }}" class="btn">
+        Add Student
+    </a>
+
+    <a href="{{ url_for('add_marks') }}" class="btn">
+        Add Marks
+    </a>
+</div>
+</body>
+</html>
